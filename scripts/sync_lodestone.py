@@ -6,7 +6,9 @@ import requests
 from bs4 import BeautifulSoup
 
 ROOT=Path(__file__).resolve().parents[1]
-CHARACTER_ID=re.fullmatch(r'\d{5,12}', os.getenv('LODESTONE_CHARACTER_ID','61850504'))
+CHARACTER_ID = os.getenv('LODESTONE_CHARACTER_ID', '61850504')
+if not re.fullmatch(r'\d{5,12}', CHARACTER_ID):
+    raise ValueError("Identifiant Lodestone invalide")
 if not CHARACTER_ID: raise ValueError('Invalid Lodestone character ID')
 URL=f'https://na.finalfantasyxiv.com/lodestone/character/{CHARACTER_ID}/class_job/'
 NAMES={'Carpenter':'Menuisier','Blacksmith':'Forgeron','Armorer':'Armurier','Goldsmith':'Orfèvre','Leatherworker':'Tanneur','Weaver':'Couturier','Alchemist':'Alchimiste','Culinarian':'Cuisinier','Miner':'Mineur','Botanist':'Botaniste','Fisher':'Pêcheur','Menuisier':'Menuisier','Forgeron':'Forgeron','Armurier':'Armurier','Orfèvre':'Orfèvre','Tanneur':'Tanneur','Couturier':'Couturier','Alchimiste':'Alchimiste','Cuisinier':'Cuisinier','Mineur':'Mineur','Botaniste':'Botaniste','Pêcheur':'Pêcheur'}
