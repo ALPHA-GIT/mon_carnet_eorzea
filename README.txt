@@ -1,1 +1,6 @@
-Version web PWA. Héberger tous les fichiers sur un site HTTPS pour permettre l'installation et le fonctionnement hors ligne. Ouvrir index.html localement permet un aperçu, mais pas l'installation PWA complète. Les niveaux sont enregistrés dans le stockage local du navigateur. Les suggestions sont génériques. Aucun hébergement n'est inclus.
+Mon Carnet d’Éorzéa V2 — version web
+
+Décompressez le ZIP, ouvrez index.html dans votre navigateur.
+Trois onglets : Personnage, Jobs, Collections.
+Les niveaux d’artisanat sont modifiables et enregistrés localement.
+Cette version conserve les fonctions de la V1 et ajoute une interface bleu nuit et dorée.
