@@ -1,0 +1,1 @@
+Version web PWA. Héberger tous les fichiers sur un site HTTPS pour permettre l'installation et le fonctionnement hors ligne. Ouvrir index.html localement permet un aperçu, mais pas l'installation PWA complète. Les niveaux sont enregistrés dans le stockage local du navigateur. Les suggestions sont génériques. Aucun hébergement n'est inclus.

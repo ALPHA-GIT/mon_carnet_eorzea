@@ -1,0 +1,1 @@
+{"name": "Mon Carnet d'Éorzéa", "short_name": "Carnet Éorzéa", "start_url": "./index.html", "display": "standalone", "background_color": "#101d31", "theme_color": "#101d31", "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}]}
