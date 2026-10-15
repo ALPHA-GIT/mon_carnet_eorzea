@@ -1,18 +1,1 @@
-{
-  "character_id": "61850504",
-  "source": "https://na.finalfantasyxiv.com/lodestone/character/61850504/class_job/",
-  "updated_at": "2026-10-15T13:59:13.141626+00:00",
-  "levels": {
-    "Menuisier": 100,
-    "Mineur": 100,
-    "Botaniste": 100,
-    "Pêcheur": 100,
-    "Forgeron": 66,
-    "Armurier": 57,
-    "Orfèvre": 85,
-    "Tanneur": 96,
-    "Couturier": 91,
-    "Alchimiste": 81,
-    "Cuisinier": 92
-  }
-}
+{"character_id":"61850504","source":"https://na.finalfantasyxiv.com/lodestone/character/61850504/class_job/","updated_at":null,"levels":{}}
