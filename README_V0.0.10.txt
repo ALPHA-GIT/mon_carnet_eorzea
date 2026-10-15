@@ -1,0 +1,1 @@
+Version 0.0.10 : correction du bouton Lodestone, prise en charge des 11 métiers, synchronisation nom et niveaux. Installer tous les fichiers puis rafraîchir le site (Ctrl+F5). La synchronisation est à valider sur GitHub Pages.
